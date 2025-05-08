@@ -2,6 +2,7 @@ body{
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
+    overflow-x: hidden;
 }
 .navbar{
     background-color: rgb(0, 0, 0, 0.2);
@@ -28,7 +29,7 @@ body{
 }
 
 .topimage{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("images/BCK6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -114,7 +115,7 @@ body{
 }
 
 .issues{
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("photos/trevorphoto.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("images/trevorphoto.jpg");
     background-repeat: repeat;
     /* background-color: blue; */
     background-size: cover;
@@ -229,7 +230,7 @@ body{
     display: flex;
     }
 .inviteimg{
-    background-image: url(" photos/NOVEL13.jpg");
+    background-image: url(" images/NOVEL13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
